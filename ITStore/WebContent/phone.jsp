@@ -14,10 +14,10 @@
     />
     <link rel="stylesheet" href="cssadmin/dataTables.bootstrap5.min.css" />
     <link rel="stylesheet" href="cssadmin/style.css" />
-    <title>Frontendfunn - Bootstrap 5 Admin Dashboard Template</title>
+    <title>Side bar Edit</title>
 </head>
 <body>
- <!-- top navigation bar -->
+  <!-- top navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
         <button
@@ -263,49 +263,110 @@
                 <div class="row my-2">
                     <div class="col">
                         <div class="form-group">
-                            <label for="brand-selection">Brand</label>
-                             <input type="text" name="" id="model" class="form-control mt-2" placeholder="Enter Brand Name">
+                            <label for="model">Brand</label>
+                            <input type="text" name="" id="brand" class="form-control mt-2" placeholder="Enter Brand Name">
                         </div>
                     </div>
                     <!-- Model -->
                     <div class="col">
                         <div class="form-group">
                             <label for="model">Model</label>
-                            <input type="text" name="" id="model" class="form-control mt-2" placeholder="Enter Model">
+                            <input type="text" name="model" id="model" class="form-control mt-2" placeholder="Enter  Phone Model">
                         </div>
                     </div>
                 </div>
-              
-                <!-- Device Type  -->
+
+                <!-- Second Row -->
+                <div class="row mt-3">
+                    <!-- Screen Size -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="model">Display</label>
+                            <input type="text" name="display" id="display" class="form-control mt-2" placeholder="Enter Display Info">
+                        </div>
+                    </div>
+                    <!-- CPU -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="storage-selection">CPU</label>
+                            <input type="text" name="cpu" id="cpu" class="form-control mt-2" placeholder="Enter CPU">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RAM -->
                 <div class="row mt-3">
                     <div class="col">
                         <div class="form-group">
-                            <label for="body-selection">Device Type</label>
-                            <input type="text" name="" id="model" class="form-control mt-2" placeholder="Enter Device Type">
+                            <label for="storage-selection">RAM</label>
+                            <input type="text" name="ram" id="ram" class="form-control mt-2" placeholder="Enter RAM">
+                        </div>
+                    </div>
+                    <!-- Storage -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="storage-selection">Storage</label>
+                            <input type="text" name="storage" id="storage" class="form-control mt-2" placeholder="Enter Storage">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                  <!-- Battery -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="battery">Battery</label>
+                            <input type="text" name="" id="battery" class="form-control mt-2" placeholder="5000 mAh">
+                        </div>
+                        
+                    </div>
+                    <!-- Weight -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="weight">Weight</label>
+                            <input type="text" name="" id="weight" class="form-control mt-2" placeholder="150 g">
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Camera  -->
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="storage-selection">Main Camera</label>
+                            <input type="text" name="mcamera" id="mcamera" class="form-control mt-2" placeholder="Enter Main Camera Info">
+                        </div>
+                    </div>
+                    <!-- Selfie Camera -->
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="storage-selection">Front Camera</label>
+                            <input type="text" name="fcamera" id="fcamera" class="form-control mt-2" placeholder="Enter Front Camera Info">
+                        </div>
+                    </div>
+                </div>
+                <!-- Body Type  -->
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="storage-selection">Sound</label>
+                            <input type="text" name="sound" id="sound" class="form-control mt-2" placeholder="Enter about Sound System Info">
                         </div>
                     </div>
                     <!-- Color  -->
                     <div class="col">
                         <div class="form-group">
-                            <label for="color-selection">Color</label>
-                            <select name="" id="color-selection" class="form-control mt-2">
-                                <option value="empty" selected>Select Color</option>
-                                <option value="gray">Gray</option>
-                                <option value="black">Black</option>
-                                <option value="white">White</option>
-                                <option value="purple">Purple</option>
-                                <option value="green">Green</option>
-                            </select>
+                            <label for="storage-selection">Color</label>
+                            <input type="text" name="color" id="color" class="form-control mt-2" placeholder="Enter color info">
                         </div>
                     </div>
                 </div>
                 <!-- Price  -->
-        
+
                 <div class="row my-2">
                     <div class="col-6">
                         <div class="form-group">
                             <label for="price">Price</label>
-                            <input type="text" name="" id="price" class="form-control mt-2" placeholder="Enter Phone Price">
+                            <input type="text" name="price" id="price" class="form-control mt-2" placeholder="Enter Phone Price">
                         </div>
                     </div>
                     <!-- Quantity  -->
